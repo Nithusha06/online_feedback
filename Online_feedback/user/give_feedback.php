@@ -25,10 +25,10 @@ echo "<h2 style='color:green'>Thank you </h2>";
 ?>
 <form method="post">
 <fieldset>
-<center><u>Student's FeedBack Form</u></center><br>
+<u>Student's FeedBack Form</u><br>
  
 <fieldset>
-
+<legend>Billing address</legend>
 
 
 <h3>Please give your answer about the following question by circling the given grade on the scale:</h3>
@@ -40,7 +40,7 @@ echo "<h2 style='color:green'>Thank you </h2>";
 <button type="button" style="font-size:7pt;color:white;background-color:Black;border:2px solid #336600;padding:3px"> Disagree 2</button>
 <button type="button" style="font-size:7pt;color:white;background-color:red;border:2px solid #336600;padding:3px">Strongly Disagree 1</button><br>
 
-<table class="table table-bordered" style="margin-top:50px">
+<table summary="New York City Marathon Results 2013">
 <tr>
 
 <th> Select Faculty :</th>
@@ -60,9 +60,9 @@ $sql=mysqli_query($conn,"select * from faculty where semester='".$users['semeste
 
 
 <h3>1-Course Material</h3>
-<table class="table table-bordered">
+<table summary="feedback history">
 <tr>
-<td><b>1:</b> Teacher provided the course outline having weekly content plan with list of  required text book:</td>  
+<td><strong>1:</strong> Teacher provided the course outline having weekly content plan with list of  required text book:</td>  
 <td><input type="radio" name="quest1" value="5" required> 5
   <input type="radio" name="quest1" value="4">4
   <input type="radio" name="quest1" value="3"> 3
@@ -71,7 +71,7 @@ $sql=mysqli_query($conn,"select * from faculty where semester='".$users['semeste
 </tr>
   
 <tr>
-<td><b>2:</b>Course objectives,learning outcomes and grading criteria are clear to me:</td> 
+<td><strong>2:</strong>Course objectives,learning outcomes and grading criteria are clear to me:</td> 
 <td><input type="radio" name="quest2" value="5" required>5
   <input type="radio" name="quest2" value="4">4
   <input type="radio" name="quest2" value="3">3
@@ -81,7 +81,7 @@ $sql=mysqli_query($conn,"select * from faculty where semester='".$users['semeste
 
 <tr>
 <td>
-<b>3:</b>Course integrates throretical course concepts with the real world examples:</td> 
+<strong>3:</strong>Course integrates throretical course concepts with the real world examples:</td> 
 <td>
 <input type="radio" name="quest3" value="5" required> 5
   <input type="radio" name="quest3" value="4">4
@@ -92,8 +92,8 @@ $sql=mysqli_query($conn,"select * from faculty where semester='".$users['semeste
 </table>
 
 <h3>2-Class Teaching</h3>
- <table  class="table table-bordered" >
-<Td><b>4:</b> Teacher is punctual,arrives on time and leaves on time:</td>
+ <table aria-describedby="mydesc">
+<Td><strong>4:</strong> Teacher is punctual,arrives on time and leaves on time:</td>
 <td> <input type="radio" name="quest4" value="5" required> 5
   <input type="radio" name="quest4" value="4">4
   <input type="radio" name="quest4" value="3"> 3
@@ -112,7 +112,7 @@ $sql=mysqli_query($conn,"select * from faculty where semester='".$users['semeste
 <input type="radio" name="quest5" value="1">1</td>
 </tr>
 <tr>
-<td><b>6:</b> Teacher is good at explaining the subject matter:</td>
+<td><strong>6:</strong> Teacher is good at explaining the subject matter:</td>
 <td>
  <input type="radio" name="quest6" value="5" required> 5
   <input type="radio" name="quest6" value="4">4
@@ -122,7 +122,7 @@ $sql=mysqli_query($conn,"select * from faculty where semester='".$users['semeste
 </tr>
 
 <tr><td>
-<b>7:</b> Teacher's presentation was clear,loud ad easy to understand:</td>
+<strong>7:</strong> Teacher's presentation was clear,loud ad easy to understand:</td>
 <td> <input type="radio" name="quest7" value="5" required> 5
   <input type="radio" name="quest7" value="4">4
   <input type="radio" name="quest7" value="3"> 3
@@ -130,7 +130,7 @@ $sql=mysqli_query($conn,"select * from faculty where semester='".$users['semeste
 <input type="radio" name="quest7" value="1">1</td>
 <tr>
 <td>
-<b>8:</b> Teacher is good at using innovative teaching methods/ways:</td><td> 
+<strong>8:</strong> Teacher is good at using innovative teaching methods/ways:</td><td> 
 <input type="radio" name="quest8" value="5" required> 5
   <input type="radio" name="quest8" value="4">4
   <input type="radio" name="quest8" value="3">3
@@ -139,7 +139,7 @@ $sql=mysqli_query($conn,"select * from faculty where semester='".$users['semeste
 </tr>
 <tr>
 <td>
-<b>9:</b> Teacher is available and helpful during counseling hours:</td> 
+<strong>9:</strong> Teacher is available and helpful during counseling hours:</td> 
 <td><input type="radio" name="quest9" value="5" required>5
   <input type="radio" name="quest9" value="4">4
   <input type="radio" name="quest9" value="3"> 3
@@ -148,7 +148,7 @@ $sql=mysqli_query($conn,"select * from faculty where semester='".$users['semeste
 </tr>
 <tr>
 <td>
-<b>10:</b> Teacher has competed the whole course as per course outline:</td>
+<strong>10:</strong> Teacher has competed the whole course as per course outline:</td>
 <td>
  <input type="radio" name="quest10" value="5" required> 5
   <input type="radio" name="quest10" value="4">4
@@ -159,9 +159,9 @@ $sql=mysqli_query($conn,"select * from faculty where semester='".$users['semeste
 </table>
 
 <h3>3-Class Assessment</h3>
- <table  class="table table-bordered" >
+ <table aria-describedby="mydesc" >
 <tr>
-<td><b>11:</b>Teacher was always fair and impartial:</td>
+<td><strong>11:</strong>Teacher was always fair and impartial:</td>
 <td>
  <input type="radio" name="quest11" value="5" required> 5
   <input type="radio" name="quest11" value="4">4
@@ -170,7 +170,7 @@ $sql=mysqli_query($conn,"select * from faculty where semester='".$users['semeste
 <input type="radio" name="quest11" value="1">1</td>
 </tr>
 <tr>
-<td><b>12:</b>Assessments conducted are clearly connected to maximize learining objectives:</td>
+<td><strong>12:</strong>Assessments conducted are clearly connected to maximize learining objectives:</td>
 <Td>
  <input type="radio" name="quest12" value="5" required> 5
   <input type="radio" name="quest12" value="4">4
@@ -180,16 +180,16 @@ $sql=mysqli_query($conn,"select * from faculty where semester='".$users['semeste
 </tr>
 </table>
 
-<b>13:</b>What I liked about the course:<br><br>
-<center>
+<strong>13:</strong>What I liked about the course:<br><br>
+
 <textarea name="quest13" rows="5" cols="60" id="comments" style="font-family:sans-serif;font-size:1.2em;">
 
-</textarea></center><br><br>
-<b>14:</b>Why I disliked about the course:<br><br>
-<center>
+</textarea><br><br>
+<strong>14:</strong>Why I disliked about the course:<br><br>
+
 <textarea name="quest14" rows="5" cols="60" id="comments" style="font-family:sans-serif;font-size:1.2em;">
 
-</textarea></center>
+</textarea>
 
 <p align="center"><button type="submit" style="font-size:7pt;color:white;background-color:brown;border:2px solid #336600;padding:7px" name="sub">Submitt</button></p>
 
@@ -209,4 +209,3 @@ $sql=mysqli_query($conn,"select * from faculty where semester='".$users['semeste
     
     </div><!--close main-->
   </form>
-<center>

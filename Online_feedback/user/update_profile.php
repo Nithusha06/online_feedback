@@ -29,7 +29,7 @@ $res=mysqli_fetch_assoc($sql);
 <h2 align="center">Update Your Profile</h2>
 
 		<form method="post">
-			<table class="table table-bordered">
+			<table aria-describedby="mydesc">
 	<Tr>
 		<Td colspan="2"><?php echo @$err;?></Td>
 	</Tr>

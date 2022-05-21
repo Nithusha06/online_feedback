@@ -26,7 +26,7 @@ if(isset($update_password))
 
 ?>
 <form method="post">
-<table border="0" bgcolor="#99FFCC" style="margin:30px;">
+<table summary="New York City Marathon Results 2013">
 <tr>
 	 <th><?php echo @$err; ?></th>
 </tr>
