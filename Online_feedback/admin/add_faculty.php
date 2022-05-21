@@ -1,6 +1,6 @@
 <?php
 function configure_logging() {
-	error_reporting(E_RECOVERABLE_ERROR); // Sensitive
+	
 	error_reporting(32);
 
   
