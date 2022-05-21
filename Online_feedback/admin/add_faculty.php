@@ -17,8 +17,9 @@ error_reporting(1);
 		$user_name=$temp.$temp1;
 		query = "SELECT * FROM faculty WHERE email = " . $email;
 $r = mysqli_query($q);  // No issue will be raised even if it is Sensitive
-/*$q=mysqli_query($conn,"select * from faculty where email='$email'"); */
+
 	$r=mysqli_num_rows($q);	
+	
 	if($r)
 	{
 	$err="<font color='red'>This email already exists choose diff email.</font>";

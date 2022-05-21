@@ -20,11 +20,7 @@
     margin-bottom: 20px;
 }
 
-.timeline > li:before,
-.timeline > li:after {
-    content: " ";
-    display: table;
-}
+
 
 .timeline > li:after {
     clear: both;
