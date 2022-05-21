@@ -1,10 +1,16 @@
 <?php
+function configure_logging() {
+	error_reporting(E_RECOVERABLE_ERROR); // Sensitive
+	error_reporting(32);
 
+  
+	ini_set('docref_root', '1'); // Sensitive
+}
 	include('../dbconfig.php');
 	extract($_POST);
 	if(isset($save))
 	{	
-		error_reporting(1);
+		
 		if(strlen($mob)<10 || strlen($mob)>10)
 		{
 		$err="<font color='red'>Mobile number must be 10 digit</font>";
