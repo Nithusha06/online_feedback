@@ -25,6 +25,8 @@ $imageName=$_FILES['img']['name'];
 
 //encrypt your password
 $pass=md5($p);
+$pass = pass("md5", $data);
+
 
 
 $query="insert into user values('','$n','$e','$pass','$mob','$pro','$sem','$gen','$hob','$imageName','$dob',now())";
