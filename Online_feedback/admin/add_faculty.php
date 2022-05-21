@@ -1,9 +1,10 @@
 <?php
-error_reporting(1);
+
 	include('../dbconfig.php');
 	extract($_POST);
 	if(isset($save))
 	{	
+		error_reporting(1);
 		if(strlen($mob)<10 || strlen($mob)>10)
 		{
 		$err="<font color='red'>Mobile number must be 10 digit</font>";
