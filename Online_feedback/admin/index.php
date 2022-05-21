@@ -64,6 +64,7 @@ $que=mysqli_query($conn,"select user and pass from admin where user='$email' and
                     <div class="panel-body">
                         <form method="post">
                             <fieldset>
+                            <legend>Billing address</legend>
                                 <div class="form-group">
                                     <input class="form-control" name="email" type="email" autofocus required placeholder="E-mail">
                                 </div>

@@ -1,5 +1,5 @@
 <form method="post">
-<table class="table table-hover">
+<table aria-describedby="mydesc">
 <tr>
 
 <th> Select Faculty</th>
