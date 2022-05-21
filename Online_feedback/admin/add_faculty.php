@@ -1,11 +1,5 @@
 <?php
-function configure_logging() {
-	
-	error_reporting(32);
 
-  
-	ini_set('docref_root', '1'); // Sensitive
-}
 	include('../dbconfig.php');
 	extract($_POST);
 	if(isset($save))
