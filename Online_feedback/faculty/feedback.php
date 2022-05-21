@@ -1,7 +1,7 @@
 <?php 
 $q=mysqli_query($conn,"select * from feedback where faculty_id='".$_SESSION['faculty_login']."'");
 $r=mysqli_num_rows($q);
-if($r==true)
+if($r)
 {
 echo "<h3 style='color:Red'>No any records found ! </h3>";
 }

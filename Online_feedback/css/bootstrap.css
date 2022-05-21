@@ -8,9 +8,20 @@ html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+      
+        font-size: 10px;
+      
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
   margin: 0;
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+
 }
 article,
 aside,
@@ -44,6 +55,10 @@ template {
 }
 a {
   background-color: transparent;
+ 
+    color: #337ab7;
+    text-decoration: none;
+
 }
 a:active,
 a:hover {
@@ -1076,18 +1091,9 @@ th {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-html {
-  font-size: 10px;
 
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333;
-  background-color: #fff;
-}
+
+
 input,
 button,
 select,
@@ -1096,10 +1102,7 @@ textarea {
   font-size: inherit;
   line-height: inherit;
 }
-a {
-  color: #337ab7;
-  text-decoration: none;
-}
+
 a:hover,
 a:focus {
   color: #23527c;

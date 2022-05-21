@@ -7,7 +7,7 @@ $sql=mysqli_query($conn,"select * from user where email='$e'");
 
 $r=mysqli_num_rows($sql);
 
-if($r==true)
+if($r)
 {
 $err= "<font color='red'><h3 align='center'>This user already exists</h3></font>";
 }
@@ -173,7 +173,7 @@ $err="<font color='blue'><h3 align='center'>Registration successfull !!<h3></fon
 				<tr>
 					
 					
-<Td colspan="2" align="center">
+<Td colspan="2">
 <input type="submit" value="Save" class="btn btn-info" name="save"/>
 <input type="reset" value="Reset" class="btn btn-info"/>
 				

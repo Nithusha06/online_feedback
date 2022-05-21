@@ -40,7 +40,7 @@ echo "<h2 style='color:green'>Thank you </h2>";
 <button type="button" style="font-size:7pt;color:white;background-color:Black;border:2px solid #336600;padding:3px"> Disagree 2</button>
 <button type="button" style="font-size:7pt;color:white;background-color:red;border:2px solid #336600;padding:3px">Strongly Disagree 1</button><br>
 
-<table >
+<table aria-describedby="mydesc">
 <tr>
 
 <th> Select Faculty :</th>
@@ -60,7 +60,7 @@ $sql=mysqli_query($conn,"select * from faculty where semester='".$users['semeste
 
 
 <h3>1-Course Material</h3>
-<table summary="feedback history">
+<table  aria-describedby="mydesc">
 		<th scope="col">Name</th>
     <th scope="col">Age</th>
 <tr>
