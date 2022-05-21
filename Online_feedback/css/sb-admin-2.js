@@ -9,11 +9,11 @@ $(function() {
 // Sets the min-height of #page-wrapper to window size
 $(function() {
     $(window).bind("load resize", function() {
-        var i = 50;
+       topOffset = 50;
         width = (this.window.innerWidth > 0) ? this.window.innerWidth : this.screen.width;
         if (width < 768) {
             $('div.navbar-collapse').addClass('collapse');
-           var i = 100; // 2-row-menu
+          topOffset  = 100; // 2-row-menu
         } else {
             $('div.navbar-collapse').removeClass('collapse');
         }
