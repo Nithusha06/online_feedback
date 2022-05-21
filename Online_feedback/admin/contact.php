@@ -30,7 +30,7 @@ function deletes(id)
 
 <div class="col-sm-12">
 
-<table class="table table-bordered">
+<table>
 
 	<thead >
 	
