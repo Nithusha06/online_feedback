@@ -10,13 +10,8 @@ error_reporting(1);
 		}
 		else
 		{
-		//for auto genrate Password
-		/*
-		$x=rand(1,99);
-		$p= md5($x);
-		$pass=substr($p,1,6);
-		*/
-		//for user_alias
+		
+		
 		$temp=substr($name,0,4);
 		$temp1=substr($mob,0,4);
 		$user_name=$temp.$temp1;
