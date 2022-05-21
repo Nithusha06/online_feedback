@@ -14,7 +14,7 @@ $sql=mysqli_query($conn,"select * from faculty where email='$e' and password='$p
 
 $r=mysqli_num_rows($sql);
 
-if($r==true)
+if($r)
 {
 $_SESSION['faculty_login']=$e;
 header('location:faculty');

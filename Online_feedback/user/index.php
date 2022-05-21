@@ -6,7 +6,7 @@ if($user=="")
 {header('location:../index.php');}
 $sql=mysqli_query($conn,"select * from user where email='$user' ");
 $users=mysqli_fetch_assoc($sql);
-//print_r($users);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

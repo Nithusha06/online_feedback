@@ -1,7 +1,7 @@
 <?php 
 $q=mysqli_query($conn,"select * from contact");
 $r=mysqli_num_rows($q);
-if($r==false)
+if($r)
 {
 echo "<h3 style='color:Red'>No any records found ! </h3>";
 }
@@ -23,7 +23,7 @@ function deletes(id)
 
 <div class="row">
 	<div class="col-sm-12" style="color:orange;">
-		<h1 align="center" >Contact Us</h1>
+		<h1>Contact Us</h1>
 	</div>
 </div>
 <div class="row">
@@ -49,7 +49,7 @@ function deletes(id)
 	while($row=mysqli_fetch_assoc($q))
 		{
 			echo "<tr>";
-			echo "<td>".$i."</td>";
+		
 			echo "<td>".$row['name']."</td>";
 			echo "<td>".$row['mobile']."</td>";
 			echo "<td>".$row['email']."</td>";

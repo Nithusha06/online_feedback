@@ -32,13 +32,6 @@ echo "<h4>Total Student Attempts : ".$c."</h4>";
 
 
 
-/*
-$r1=mysqli_query($conn,"select * from feedback where faculty_id='$faculty'");
-$c1=mysqli_fetch_assoc($r1);	
-echo "<h4>Total Student Attempts : ".$c1[3]."</h4>";
-
-*/
-
 //question 1 start
 error_reporting(1);
 $q=mysqli_query($conn,"select * from feedback where faculty_id='$faculty'");
@@ -122,6 +115,6 @@ $count+=$res[13];
 $count+=$res[14];
 $count+=$res[15];
 }
-//echo $count;
+
 }
 ?>

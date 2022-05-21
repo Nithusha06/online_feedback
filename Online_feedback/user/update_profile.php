@@ -9,7 +9,7 @@ $hob=implode(",",$hob);
 
 $query="update user set name='$n',mobile='$mob',gender='$gen',hobbies='$hob',dob='$dob' where email='".$_SESSION['user']."'";
 
-//$query="insert into user values('','$n','$e','$pass','$mob','$gen','$hob','$imageName','$dob',now())";
+
 mysqli_query($conn,$query);
 
 
@@ -26,7 +26,7 @@ $sql=mysqli_query($conn,"select * from user where email='".$_SESSION['user']."'"
 $res=mysqli_fetch_assoc($sql);
 
 ?>
-<h2 align="center">Update Your Profile</h2>
+<h2>Update Your Profile</h2>
 
 		<form method="post">
 			<table aria-describedby="mydesc">
@@ -127,7 +127,7 @@ $res=mysqli_fetch_assoc($sql);
 				<tr>
 					
 					
-<Td colspan="2" align="center">
+<Td colspan="2">
 <input type="submit" class="btn btn-default" value="Update My Profile" name="update"/>
 <input type="reset" class="btn btn-default" value="Reset"/>
 				

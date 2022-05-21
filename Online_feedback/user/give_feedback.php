@@ -7,7 +7,7 @@ $user=$_SESSION['user'];
 $sql=mysqli_query($conn,"select * from feedback where student_id='$user' and faculty_id='$faculty'");
 $r=mysqli_num_rows($sql);
 
-if($r==true)
+if($r)
 {
 echo "<h2 style='color:red'>You already given feedback to this faculty</h2>";
 }
@@ -197,15 +197,15 @@ $sql=mysqli_query($conn,"select * from faculty where semester='".$users['semeste
 
 </textarea>
 
-<p align="center"><button type="submit" style="font-size:7pt;color:white;background-color:brown;border:2px solid #336600;padding:7px" name="sub">Submitt</button></p>
+<p><button type="submit" style="font-size:7pt;color:white;background-color:brown;border:2px solid #336600;padding:7px" name="sub">Submitt</button></p>
 
 
 </form>
 </fieldset>
 
 
-<!--<a href="transport.html"><p align="right"><button type="Button"style="font-size:7pt;color:white;background-color:green;border:2px solid #336600;padding:7px">Next</button></p></a>
-<a href="About.php"><p align="right"><button type="Button" style="font-size:7pt;color:white;background-color:green;border:2px solid #336600;padding:7px">Back</button></p></a>-->
+
+<a href="About.php"><p><button type="Button" style="font-size:7pt;color:white;background-color:green;border:2px solid #336600;padding:7px">Back</button></p></a>-->
 
 </div><!--close content_item-->
       </div><!--close content-->   

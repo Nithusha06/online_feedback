@@ -15,7 +15,7 @@ $sql=mysqli_query($conn,"select * from user where email='$e' and pass='$pass'");
 
 $r=mysqli_num_rows($sql);
 
-if($r==true)
+if($r)
 {
 $_SESSION['user']=$e;
 header('location:user');
