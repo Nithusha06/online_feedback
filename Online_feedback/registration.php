@@ -52,7 +52,9 @@ $err="<font color='blue'><h3 align='center'>Registration successfull !!<h3></fon
 		<div class="col-sm-8">
 		<form method="post" enctype="multipart/form-data">
 		<table>
-	<caption><h2 align="center">Registration Form</h2></caption>
+		<th scope="col">Name</th>
+    <th scope="col">Age</th>
+	<caption><h2>Registration Form</h2></caption>
 	<Tr>
 		<Td colspan="2"><?php echo @$err;?></Td>
 	</Tr>
