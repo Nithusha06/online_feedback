@@ -51,7 +51,7 @@ $err="<font color='blue'><h3 align='center'>Registration successfull !!<h3></fon
 		<div class="col-sm-2"></div>
 		<div class="col-sm-8">
 		<form method="post" enctype="multipart/form-data">
-		<table>
+		<table aria-describedby="mydesc">
 		<th scope="col">Name</th>
     <th scope="col">Age</th>
 	<caption><h2>Registration Form</h2></caption>
