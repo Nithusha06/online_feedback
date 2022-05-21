@@ -1,4 +1,4 @@
-<h1 align="center" style="text-decoration:underline"><a href="">Admin Dashboard</a></h1>
+<h1><a href="">Admin Dashboard</a></h1>
 <?php 
 //all complaints
 $qq=mysqli_query($conn,"select * from faculty ");

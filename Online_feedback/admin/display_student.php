@@ -31,7 +31,7 @@ function deletes(id)
 	while($row=mysqli_fetch_array($que))
 	{
 		echo "<tr>";
-		echo "<td>".$i."</td>";
+	
 		echo "<td>".$row['name']."</td>";
 		echo "<td>".$row['email']."</td>";
 		echo "<td>".$row['mobile']."</td>";

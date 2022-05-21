@@ -65,14 +65,14 @@ include('../dbconfig.php');
                 <!-- /.dropdown -->
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                        <em class="fa fa-user fa-fw"></em>  <em class="fa fa-caret-down"></em>
                     </a>
                     <ul class="dropdown-menu dropdown-user">
                         
-                        <li><a href="dashboard.php?info=update_password"><i class="fa fa-gear fa-fw"></i>Change Password</a>
+                        <li><a href="dashboard.php?info=update_password"><em class="fa fa-gear fa-fw"></em>Change Password</a>
                         </li>
                         <li class="divider"></li>
-                        <li><a href="logout.php"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        <li><a href="logout.php"><em class="fa fa-sign-out fa-fw"></em> Logout</a>
                         </li>
                     </ul>
                     <!-- /.dropdown-user -->
@@ -85,17 +85,17 @@ include('../dbconfig.php');
                 <div class="sidebar-nav navbar-collapse">
                     <ul class="nav" id="side-menu">
                         <li>
-                            <a href="dashboard.php"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                            <a href="dashboard.php"><em class="fa fa-dashboard fa-fw"></em> Dashboard</a>
                         </li>
                         
 						<li>
-                            <a href="#"><i class="fa fa-user fa-fw"></i>Faculty<span class="fa arrow"></span></a>
+                            <a href="#"><em class="fa fa-user fa-fw"></em>Faculty<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="dashboard.php?info=add_faculty"><i class="fa fa-plus fa-fw"></i> Add Faculty</a>
+                                    <a href="dashboard.php?info=add_faculty"><em class="fa fa-plus fa-fw"></em> Add Faculty</a>
                                 </li>
 								 <li>
-                                    <a href="dashboard.php?info=show_faculty"><i class="fa fa-eye"></i> Manage faculty</a>
+                                    <a href="dashboard.php?info=show_faculty"><em class="fa fa-eye"></em> Manage faculty</a>
                                 </li>                           
 							</ul>
                             <!-- /.nav-second-level -->
@@ -103,11 +103,11 @@ include('../dbconfig.php');
                         
 						
 						<li>
-                            <a href="#"><i class="fa fa-user fa-fw"></i>Student<span class="fa arrow"></span></a>
+                            <a href="#"><em class="fa fa-user fa-fw"></em>Student<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 
 								 <li>
-                                    <a href="dashboard.php?info=display_student"><i class="fa fa-eye"></i> Manage Student</a>
+                                    <a href="dashboard.php?info=display_student"><em class="fa fa-eye"></em> Manage Student</a>
                                 </li> 
 							             
 							</ul>
@@ -117,11 +117,11 @@ include('../dbconfig.php');
 		
 		<!-- feedback-->
 		<li>
-         <a href="#"><i class="fa fa-user fa-book"></i>Feedback<span class="fa arrow"></span></a>
+         <a href="#"><em class="fa fa-user fa-book"></em>Feedback<span class="fa arrow"></span></a>
            <ul class="nav nav-second-level">
                              
-<li><a href="dashboard.php?info=feedback"><i class="fa fa-eye"></i> feedback</a></li>
-<li><a href="dashboard.php?info=feedback_average"><i class="fa fa-eye"></i> feedback Average</a></li>
+<li><a href="dashboard.php?info=feedback"><em class="fa fa-eye"></em> feedback</a></li>
+<li><a href="dashboard.php?info=feedback_average"><em class="fa fa-eye"></em> feedback Average</a></li>
 	 
 							             
 							</ul>
@@ -132,7 +132,7 @@ include('../dbconfig.php');
 						
 						
 		<li>
-			<a href="dashboard.php?info=contact"><i class="fa fa-eye"></i> Contact us</a>
+			<a href="dashboard.php?info=contact"><em class="fa fa-eye"></em> Contact us</a>
 		</li>
 			   
 				   
