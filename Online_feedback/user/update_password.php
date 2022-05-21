@@ -13,7 +13,7 @@ $op=md5($op);
 
 $sql=mysqli_query($conn,"select * from user where pass='$op'");
 $r=mysqli_num_rows($sql);
-if($r==true)
+if($r)
 {
 
 	if($np==$cp)
@@ -39,7 +39,7 @@ $err="<font color='red'>Wrong Old Password </font>";
 }
 
 ?>
-<h2 align="center">Update Password</h2>
+<h2>Update Password</h2>
 <form method="post">
 	
 	<div class="row">

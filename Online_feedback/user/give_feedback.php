@@ -40,7 +40,7 @@ echo "<h2 style='color:green'>Thank you </h2>";
 <button type="button" style="font-size:7pt;color:white;background-color:Black;border:2px solid #336600;padding:3px"> Disagree 2</button>
 <button type="button" style="font-size:7pt;color:white;background-color:red;border:2px solid #336600;padding:3px">Strongly Disagree 1</button><br>
 
-<table summary="New York City Marathon Results 2013">
+<table >
 <tr>
 
 <th> Select Faculty :</th>
