@@ -1,7 +1,7 @@
 <?php 
 $q=mysqli_query($conn,"select * from feedback where faculty_id='".$_SESSION['faculty_login']."'");
 $r=mysqli_num_rows($q);
-if($r==false)
+if($r==true)
 {
 echo "<h3 style='color:Red'>No any records found ! </h3>";
 }
@@ -23,7 +23,7 @@ function deletes(id)
 
 <div class="row">
 	<div class="col-sm-12" style="color:orange;">
-		<h1 align="center" >Feedback</h1>
+		<h1>Feedback</h1>
 	</div>
 </div>
 <div class="row">
@@ -60,7 +60,7 @@ function deletes(id)
 	while($row=mysqli_fetch_array($q))
 		{
 			echo "<tr>";
-			echo "<td>".$i."</td>";
+			
 			echo "<td>".$row[1]."</td>";
 			echo "<td>".$row[2]."</td>";
 			echo "<td>".$row[3]."</td>";
@@ -77,7 +77,7 @@ function deletes(id)
 			echo "<td>".$row[14]."</td>";
 			echo "<td>".$row[15]."</td>";
 			echo "<td>".$row[16]."</td>";
-			//echo "<td><a href='#' onclick='deletes($row[id])'>Delete</a></td>";
+	
 			echo "</tr>";
 		$i++;
 		}

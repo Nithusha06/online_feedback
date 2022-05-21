@@ -105,7 +105,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: monospace;
   font-size: 1em;
 }
 button,
@@ -270,7 +270,7 @@ th {
   position: relative;
   top: 1px;
   display: inline-block;
-  font-family: 'Glyphicons Halflings';
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: normal;
   line-height: 1;
@@ -1110,10 +1110,10 @@ a:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
-figure {
+.figure {
   margin: 0;
 }
-img {
+.img {
   vertical-align: middle;
 }
 .img-responsive,

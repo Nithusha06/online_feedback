@@ -30,7 +30,7 @@ $err="<font color='green'>Admin Will Contact you soon</font>";
         <!-- Content Row -->
        <div class="row">
             <div class="col-md-8">
-                <h3><font color="#00FF33">Contact us </font></h3>
+                <h3>Contact us </h3>
                 <form name="sentMessage" method="post" id="contactForm" novalidate>
                   <?php echo @$err; ?>
 				    <div class="control-group form-group">
@@ -71,25 +71,25 @@ $err="<font color='green'>Admin Will Contact you soon</font>";
                 <p>
                     E-20 Sector 63<br>Noida, India 90210<br>
                 </p>
-                <p><i class="fa fa-phone"></i> 
+                <p><em class="fa fa-phone"></em> 
                     <abbr title="Phone">P</abbr>: (123) 456-7890</p>
-                <p><i class="fa fa-envelope-o"></i> 
+                <p><em class="fa fa-envelope-o"></em> 
                     <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">name@example.com</a>
                 </p>
-                <p><i class="fa fa-clock-o"></i> 
+                <p><em class="fa fa-clock-o"></em> 
                     <abbr title="Hours">H</abbr>: Monday - Sunday: 9:00 AM to 9:00 PM</p>
                 <ul class="list-unstyled list-inline list-social-icons">
                     <li>
-                        <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+                        <a href="#"><em class="fa fa-facebook-square fa-2x"></em></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                        <a href="#"><em class="fa fa-linkedin-square fa-2x"></em></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+                        <a href="#"><em class="fa fa-twitter-square fa-2x"></em></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                        <a href="#"><em class="fa fa-google-plus-square fa-2x"></em></a>
                     </li>
                 </ul>
             </div>

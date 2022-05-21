@@ -46,19 +46,19 @@ session_start();
                 <ul class="nav navbar-nav navbar-right">
                     
 					 <li style="color:#FFFFFF">
-                        <a style="color:#FFFFFF" href="index.php"><i class="fa fa-home fa-fw"></i>Home</a>
+                        <a style="color:#FFFFFF" href="index.php"><em class="fa fa-home fa-fw"></em>Home</a>
                     </li>
 					
 					<li style="color:#FFFFFF">
-                        <a style="color:#FFFFFF" href="index.php?info=about"><i class="fa fa-home fa-fw"></i>About</a>
+                        <a style="color:#FFFFFF" href="index.php?info=about"><em class="fa fa-home fa-fw"></em>About</a>
                     </li>
 					
-					<li><a style="color:#FFFFFF" href="index.php?info=registration"><i class="fa fa-sign-out fa-fw"></i>Registration</a></li>
+					<li><a style="color:#FFFFFF" href="index.php?info=registration"><em class="fa fa-sign-out fa-fw"></em>Registration</a></li>
 				
 				
 								
 	<li class="dropdown">
-        <a style="color:#FFFFFF" href="#" class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-sign-in fa-fw"></i>Login
+        <a style="color:#FFFFFF" href="#" class="dropdown-toggle" data-toggle="dropdown" href="#"><em class="fa fa-sign-in fa-fw"></em>Login
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
           
@@ -72,7 +72,7 @@ session_start();
 	  
 	  
 	 <li>
-                        <a style="color:#FFFFFF" href="index.php?info=contact"><i class="fa fa-phone fa-fw"></i>Contact</a>
+                        <a style="color:#FFFFFF" href="index.php?info=contact"><em class="fa fa-phone fa-fw"></em>Contact</a>
                     </li>
 					 	
 					

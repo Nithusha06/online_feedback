@@ -12,11 +12,11 @@ $err="<font color='green'>Faculty Details updated</font>";
 $con=mysqli_query($conn,"select * from faculty where email='".$_SESSION['faculty_login']."'");
 
 $res=mysqli_fetch_assoc($con);	
-//print_r($res);
+
 ?>
 
 
-<!--<h3 class="page-header">Update Profile</h3>
+
 --><div class="col-lg-8" style="margin:15px;">
 	<form method="post">
 	
