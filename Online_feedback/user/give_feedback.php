@@ -61,6 +61,8 @@ $sql=mysqli_query($conn,"select * from faculty where semester='".$users['semeste
 
 <h3>1-Course Material</h3>
 <table summary="feedback history">
+		<th scope="col">Name</th>
+    <th scope="col">Age</th>
 <tr>
 <td><strong>1:</strong> Teacher provided the course outline having weekly content plan with list of  required text book:</td>  
 <td><input type="radio" name="quest1" value="5" required> 5
@@ -93,6 +95,8 @@ $sql=mysqli_query($conn,"select * from faculty where semester='".$users['semeste
 
 <h3>2-Class Teaching</h3>
  <table aria-describedby="mydesc">
+		<th scope="col">Name</th>
+    <th scope="col">Age</th>
 <Td><strong>4:</strong> Teacher is punctual,arrives on time and leaves on time:</td>
 <td> <input type="radio" name="quest4" value="5" required> 5
   <input type="radio" name="quest4" value="4">4
@@ -103,7 +107,7 @@ $sql=mysqli_query($conn,"select * from faculty where semester='".$users['semeste
 
 <tr>
 <td>
-<b>5:</b> Teacher is good at stimulating the interest in the course content:</td>
+<strong>5:</strong> Teacher is good at stimulating the interest in the course content:</td>
 <td> 
 <input type="radio" name="quest5" value="5" required> 5
 <input type="radio" name="quest5" value="4">4
@@ -160,6 +164,8 @@ $sql=mysqli_query($conn,"select * from faculty where semester='".$users['semeste
 
 <h3>3-Class Assessment</h3>
  <table aria-describedby="mydesc" >
+		<th scope="col">Name</th>
+    <th scope="col">Age</th>
 <tr>
 <td><strong>11:</strong>Teacher was always fair and impartial:</td>
 <td>

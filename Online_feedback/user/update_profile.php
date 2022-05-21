@@ -30,6 +30,8 @@ $res=mysqli_fetch_assoc($sql);
 
 		<form method="post">
 			<table aria-describedby="mydesc">
+		<th scope="col">Name</th>
+    <th scope="col">Age</th>
 	<Tr>
 		<Td colspan="2"><?php echo @$err;?></Td>
 	</Tr>
