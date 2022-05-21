@@ -15,8 +15,9 @@ error_reporting(1);
 		$temp=substr($name,0,4);
 		$temp1=substr($mob,0,4);
 		$user_name=$temp.$temp1;
-		
-$q=mysqli_query($conn,"select * from faculty where email='$email'");
+		query = "SELECT * FROM faculty WHERE email = " . $email;
+$r = mysqli_query($q);  // No issue will be raised even if it is Sensitive
+/*$q=mysqli_query($conn,"select * from faculty where email='$email'"); */
 	$r=mysqli_num_rows($q);	
 	if($r)
 	{
