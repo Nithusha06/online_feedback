@@ -33,7 +33,7 @@ echo "<h4>Total Student Attempts : ".$c."</h4>";
 
 
 //question 1 start
-error_reporting(1);
+
 $q=mysqli_query($conn,"select * from feedback where faculty_id='$faculty'");
 while($res=mysqli_fetch_array($q))
 {
